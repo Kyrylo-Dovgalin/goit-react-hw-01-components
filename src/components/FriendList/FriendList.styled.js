@@ -17,7 +17,6 @@ export const FriendListItem = styled.li`
   border: 1px solid teal;
   width: 200px;
   list-style: none;
-  background-color: yellowgreen;
 `;
 export const Status = styled.span`
   display: inline-block;
@@ -38,7 +37,6 @@ export const UserName = styled.p`
   margin-left: 20px;
   font-weight: 400;
   font-size: 20px;
-  border: 1px solid teal;
 `;
 
 function showStatus(p) {

@@ -8,7 +8,7 @@ const ProfileCard = styled.div`
   width: 240px;
   height: auto;
   border: 1px solid black;
-  border-radius: 4px;
+  border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -18,23 +18,34 @@ const Description = styled.div`
   padding-top: 20px;
   padding-bottom: 20px;
 `;
-const UserAvatar = styled.img``;
-const UserName = styled.p``;
-const Tag = styled.p``;
-const Location = styled.p``;
+const UserAvatar = styled.img`
+  border: 1px solid black;
+  border-radius: 50%;
+`;
+const UserName = styled.p`
+  font-weight: 700;
+`;
+const Tag = styled.p`
+  color: gray;
+`;
+
+const Location = styled.p`
+  color: gray;
+`;
 const Stats = styled.ul`
   display: flex;
-  justify-content: center;
   align-items: center;
 
-  gap: 10px;
   padding: 0;
   margin: 0;
   width: 100%;
   list-style: none;
   background-color: gray;
 `;
-const Section = styled.li``;
+const Section = styled.li`
+  flex-basis: 80px;
+  border: 1px solid black;
+`;
 const Label = styled.span`
   margin-left: 10px;
   margin-right: 10px;
@@ -50,6 +61,7 @@ const Quantity = styled.span`
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: 700;
 `;
 
 export {

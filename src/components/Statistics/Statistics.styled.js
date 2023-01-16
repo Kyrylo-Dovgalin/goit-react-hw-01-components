@@ -12,6 +12,7 @@ export const CardTitle = styled.h2`
   margin: 0;
   font-size: 20px;
   font-weight: bold;
+  text-transform: uppercase;
   /* background-color: gray; */
   border: 1px solid gray;
 `;
@@ -27,19 +28,19 @@ export const StatItem = styled.li`
   margin: 0;
   list-style: none;
   width: 240px;
-  border: 1px solid grey;
+  border: 1px solid black;
 `;
 
 export const Label = styled.span`
   display: block;
   text-align: center;
-  background-color: aqua;
+  background-color: gray;
   margin: 0;
 `;
 
 export const Value = styled.span`
   display: block;
   text-align: center;
-  background-color: yellow;
+  background-color: gray;
   margin: 0;
 `;
